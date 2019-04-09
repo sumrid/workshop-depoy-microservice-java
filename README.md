@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.com/up1/workshop-depoy-microservice-java.svg?branch=master)](https://travis-ci.com/up1/workshop-depoy-microservice-java)
+[![Build Status](https://travis-ci.org/sumrid/workshop-depoy-microservice-java.svg?branch=master)](https://travis-ci.org/sumrid/workshop-depoy-microservice-java)
 
 ## [My docker hub](https://hub.docker.com/u/sumrid)
 
