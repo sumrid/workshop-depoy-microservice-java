@@ -9,6 +9,8 @@ before_install:
 #install:
 #  # Set the correct project to deploy to
 #  - gcloud config set project soa-group-7-174
+env:
+  - DOCKER_COMPOSE_VERSION=1.4.2
 
 deploy:
   provider: gae
@@ -17,3 +19,8 @@ deploy:
 
 services:
   - docker
+
+addons:
+  apt:
+    packages:
+      - docker-ce
