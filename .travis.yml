@@ -12,7 +12,7 @@ jdk: oraclejdk8
 
 deploy:
   provider: gae
-  keyfile: clien-secret.json
+  keyfile: clien-secret.json.enc
   project: soa-group-7-174
 
 services:
