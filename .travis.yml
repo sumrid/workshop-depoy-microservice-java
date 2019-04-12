@@ -2,9 +2,9 @@ language: java
 
 jdk: oraclejdk8
 
-before_install:
-  - openssl aes-256-cbc -K $encrypted_858960957898_key -iv $encrypted_858960957898_iv -in client-secret.json.enc -out client-secret.json -d
-  - gcloud auth activate-service-account --key-file client-secret.json
+#before_install:
+#  - openssl aes-256-cbc -K $encrypted_858960957898_key -iv $encrypted_858960957898_iv -in client-secret.json.enc -out client-secret.json -d
+#  - gcloud auth activate-service-account --key-file client-secret.json
 
 #install:
 #  # Set the correct project to deploy to
